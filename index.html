@@ -42,6 +42,10 @@ body{
  text-align: justify;
 }
 
+#container{
+min-height: 700px;
+}
+
 p,li{
 line-height: 20pt;
 }
@@ -74,8 +78,8 @@ footer{
   text-align: center;
   font-size: 90%;
   color: darkgrey;
-  margin-top: 80px;
-}
+  position: relative;
+    }
 
 .perso {
  border-bottom: 2px dashed red; 
@@ -98,6 +102,8 @@ footer{
 
 .tooltip .tooltiptext {
  visibility: hidden;
+ font-size: 95%;
+ line-height: 16pt;
  min-height: 25px;
  max-height: 150px;
  min-width: 500px;
@@ -109,8 +115,6 @@ footer{
  text-align: center;
  border-radius: 6px;
  padding: 5px 0;
-  font-size: 95%;
- line-height: 16pt;
 
  /* Position the tooltip */
  position: absolute;
@@ -125,7 +129,7 @@ footer{
 </style>
 <head>
 <body>
-
+<div id="container">
 <h1 id="top">Le Timée de Cicéron</h1>
 
 <div>
@@ -281,7 +285,7 @@ footer{
 </ul>
 
   </div>
-
+</div>
 <footer><p>M1 Humanités numériques 2021-2022</p></footer>
 
 </body>
