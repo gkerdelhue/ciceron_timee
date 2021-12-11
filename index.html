@@ -10,7 +10,7 @@ function opentabs(tabsName) {
  var i;
  var x = document.getElementsByClassName("tabs");
  for (i = 0; i < x.length; i++) {
-  x[i].style.display = "none"; 
+ x[i].style.display = "none"; 
  }
  document.getElementById(tabsName).style.display = "block"; 
 }
@@ -20,7 +20,7 @@ function openchrono(tabsName) {
  var i;
  var x = document.getElementsByClassName("chrono");
  for (i = 0; i < x.length; i++) {
-  x[i].style.display = "none"; 
+ x[i].style.display = "none"; 
  }
  document.getElementById(tabsName).style.display = "block"; 
 }
@@ -31,7 +31,7 @@ function openchrono(tabsName) {
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
  
 body{
- background-color:#E5E8E8; 
+ background-color:#f3f3f3; 
  font-family:Libre Baskerville;
  font-size: 100%;
  margin-left: auto;
@@ -46,7 +46,7 @@ body{
 }
 
 
-      
+ 
 #container{
 min-height: 700px;
 }
@@ -56,7 +56,7 @@ line-height: 20pt;
 }
 
 .motsaillant {
-    color:#3344FF;
+ color:brown;
 }
 
 h2{
@@ -64,10 +64,11 @@ border-bottom: black 1px solid;
 }
 
 button {
+ font-family:Libre Baskerville;
  background-color: darkgrey;
  border: none;
  color: white;
- padding: 10px 25px;
+ padding: 10px 20px;
  text-align: center;
  text-decoration: none;
  display: inline-block;
@@ -81,13 +82,13 @@ button:hover {
 }
 
 footer{
-  border-top: 1px solid black;
-  display: block;
-  text-align: center;
-  font-size: 90%;
-  color: darkgrey;
-  position: relative;
-    }
+ border-top: 1px solid black;
+ display: block;
+ text-align: center;
+ font-size: 90%;
+ color: darkgrey;
+ position: relative;
+ }
 
 .perso {
  border-bottom: 2px dashed red; 
@@ -99,7 +100,7 @@ footer{
 }
 
 .idee {
- border-bottom: 1px double brown;  
+ border-bottom: 1px double brown; 
 }
 
 
@@ -161,11 +162,11 @@ margin-right: auto;
 <div id="presentation" class="tabs">
 
 <h2>Présentation</h2>
-<p><h3>Un travail réalisé dans le cadre du M1, &laquo; Antiquité et Numérique &raquo;</h3></p>
+<p><h3>Un travail réalisé dans le cadre du M1, &laquo;&nbsp;Antiquité et Numérique&nbsp;&raquo;</h3></p>
 <ul>
-<li>Dans le cadre d’un cours portant sur le début du <i>Timée</i> de Cicéron, qui précède son  &laquo; adaptation &raquo; du texte de Platon, il nous a été donné à réfléchir sur la façon de proposer une édition de ce texte, en édition numérique.</li>
+<li>Dans le cadre d’un cours portant sur le début du <i>Timée</i> de Cicéron, qui précède son &laquo;&nbsp;adaptation&nbsp;&raquo; du texte de Platon, il nous a été donné à réfléchir sur la façon de proposer une édition de ce texte, en édition numérique.</li>
 <li>Si ce texte est déjà actuellement disponible en ligne, il l’est en édition numérisée &ndash; le lecteur ne retrouve souvent que la numérisation d’édition imprimée &ndash; , ce qui écarte précisément tout mode d'interaction privilégié avec le texte numérique. C’est cette spécificité que notre travail cherche à mettre en avant, que ce soit par sa présentation, par le parcours de lecture, et par les sources d’information.</li>
-<li> Ce travail s’inscrit en effet dans une réflexion plus précise, liée à l’auteur sur lequel il porte : celle d’une nouvelle approche de l’œuvre cicéronienne à laquelle travaille Mme Clara Auvray-Assayas, qu’elle développe dans le programme <a href="http://eriac.univ-rouen.fr/egesta/" target="_blank">eGesta </a>.</li>
+<li> Ce travail s’inscrit en effet dans une réflexion plus précise, liée à l’auteur sur lequel il porte&nbsp;: celle d’une nouvelle approche de l’œuvre cicéronienne à laquelle travaille Mme Clara Auvray-Assayas, qu’elle développe dans le programme <a href="http://eriac.univ-rouen.fr/egesta/" target="_blank">eGesta </a>.</li>
 </ul>
 <p><h3>Le texte de Cicéron</h3></p>
 <ul>
@@ -186,9 +187,9 @@ margin-right: auto;
 <h2>Le texte</h2>
 
 <h3>I 1</h3>
-<p>Contre les <span class="tooltip idee">philosophes de la nature<span class="tooltiptext">Les stoïciens...</span></span> <span class="tooltip perso">j’ai beaucoup écrit<span class="tooltiptext">Cicéron... <a href="#ciceron"><span onclick="opentabs('notes')">En Savoir plus</span></a></span></span> dans <span class="tooltip idee"><em>les Académiques</em><span class="tooltiptext">Les Académiques (en latin <i>Academica</i>) sont un dialogue de Cicéron publié en 45 av. J.-C. considéré comme l’introduction naturelle aux ouvrages philosophiques de Cicéron qui suivent. <a href="#academiques"><span onclick="opentabs('notes')">En Savoir plus</span></a></span></span> et j’ai aussi souvent discuté, suivant la <span class="tooltip idee">pratique<span class="tooltiptext">Elle met à jour en quoi la raison peut souvent être antinomique, et vise ainsi à combattre tout dogmatisme s’appliquant à la totalité des phénomènes sensibles (la <i> phusis </i>).<a href="#methode"><span onclick="opentabs('notes')">En Savoir plus</span></a></span></span> instaurée par <span class="tooltip perso">Carnéade<span class="tooltiptext">Carnéade, en grec ancien <i>Καρνεάδης</i> / <i>Karneádês</i> (Cyrène, v. 219 av. J.-C. – Athènes, 128 av. J.-C.) philosophe de la Nouvelle Académie, probabiliste. <a href="#carneade"><span onclick="opentabs('notes')">En Savoir plus</span></a></span></span>, avec <span class="tooltip perso">P. Nigidius Figulus<span class="tooltiptext">Publius Nigidius Figulus (vers 98 av. J.-C. - 45 av. J.-C.) premier néopythagoricien latin, vers 60 av. J.-C., à Rome. <a href="#nigidius"><span onclick="opentabs('notes')">En Savoir plus</span></a></span></span>. Cet homme n’était pas seulement doté de tous les talents dignes d’un homme libre, il était aussi un observateur exigeant et rigoureux de ce que la nature semble avoir couvert d’un voile. A mon avis, cet homme qui succède à ces nobles <span class="tooltip idee">Pythagoriciens<span class="tooltiptext">L’école pythagoricienne fondée par Pythagore (580-495 av. J.-C.) en Grande-Grèce constitue une confrérie à la fois scientifique et religieuse&nbsp;: le pythagorisme repose en effet sur une initiation et propose à ses adeptes un mode de vie éthique et alimentaire, ainsi que des recherches scientifiques sur le cosmos.</span></span> dont la doctrine s’est d’une certaine manière éteinte, alors qu’elle avait prospéré pendant quelques siècles en Italie et en Sicile, est apparu pour la faire revivre.</p>
+<p>Contre les <span class="tooltip idee">philosophes de la nature<span class="tooltiptext">Le stoïcisme est une philosophie de l'éthique personnelle influencée par son système logique et ses vues sur le monde naturel. Pour mener une vie bonne, il faut, pour les stoïciens, comprendre les règles de l'ordre naturel, car selon eux tout est enraciné dans la nature.</span></span> <span class="tooltip perso">j’ai beaucoup écrit<span class="tooltiptext"><a href="#ciceron"><span onclick="opentabs('notes')">En Savoir plus sur Cicéron</span></a></span></span> dans <span class="tooltip idee"><em>les Académiques</em><span class="tooltiptext">Les Académiques (en latin <i>Academica</i>) sont un dialogue de Cicéron publié en 45 av. J.-C. considéré comme l’introduction naturelle aux ouvrages philosophiques de Cicéron qui suivent. <a href="#academiques"><span onclick="opentabs('notes')">En Savoir plus</span></a></span></span> et j’ai aussi souvent discuté, suivant la <span class="tooltip idee">pratique<span class="tooltiptext">Elle met à jour en quoi la raison peut souvent être antinomique, et vise ainsi à combattre tout dogmatisme s’appliquant à la totalité des phénomènes sensibles (la <i> phusis </i>).<a href="#methode"><span onclick="opentabs('notes')">En Savoir plus</span></a></span></span> instaurée par <span class="tooltip perso">Carnéade<span class="tooltiptext">Carnéade, en grec ancien <i>Καρνεάδης</i> / <i>Karneádês</i> (Cyrène, v. 219 av. J.-C. – Athènes, 128 av. J.-C.) philosophe de la Nouvelle Académie, probabiliste. <a href="#carneade"><span onclick="opentabs('notes')">En Savoir plus</span></a></span></span>, avec <span class="tooltip perso">P. Nigidius Figulus<span class="tooltiptext">Publius Nigidius Figulus (vers 98 av. J.-C. - 45 av. J.-C.) premier néopythagoricien latin, vers 60 av. J.-C., à Rome. <a href="#nigidius"><span onclick="opentabs('notes')">En Savoir plus</span></a></span></span>. Cet homme n’était pas seulement doté de tous les talents dignes d’un homme libre, il était aussi un observateur exigeant et rigoureux de ce que la nature semble avoir couvert d’un voile. A mon avis, cet homme qui succède à ces nobles <span class="tooltip idee">Pythagoriciens<span class="tooltiptext">L’école pythagoricienne fondée par Pythagore (580-495 av. J.-C.) en Grande-Grèce constitue une confrérie à la fois scientifique et religieuse&nbsp;: le pythagorisme repose en effet sur une initiation et propose à ses adeptes un mode de vie éthique et alimentaire, ainsi que des recherches scientifiques sur le cosmos.</span></span> dont la doctrine s’est d’une certaine manière éteinte, alors qu’elle avait prospéré pendant quelques siècles en Italie et en Sicile, est apparu pour la faire revivre.</p>
 <h3>2</h3>
-<p>Se rendant à <span  class="tooltip lieu">Rome<span class="tooltiptext">Voir la carte.</span></span> après sa légation il m’avait attendu à <span class="tooltip lieu">Ephèse<span class="tooltiptext">Voir la carte.</span></span> tandis que je faisais route vers la <span class="tooltip lieu">Cilicie<span class="tooltiptext">Voir la carte.</span></span>&nbsp;; venant de <span class="tooltip lieu">Mytilène<span class="tooltiptext">Voir la carte.</span></span> <span class="tooltip perso">Cratippe<span class="tooltiptext">Cratippe de Pergame (en grec&nbsp;: <i>Κράτιππος</i>), était un philosophe péripatéticien de premier plan du 1er siècle avant J.-C. qui a enseigné à Mytilène et à Athènes. <a href="#cratippe"><span onclick="opentabs('notes')">En Savoir plus</span></a></span></span> s’y était également rendu pour me saluer et me voir&nbsp;: il est à mes yeux le chef de file incontestable de tous les <span class="tooltip idee">Péripatéticiens<span class="tooltiptext">École philosophique fondée par Aristote en -335 à Athènes. La philosophie péripatéticienne a la particularité de considérer qu'Aristote a découvert et révélé la vérité, et que le travail philosophique consiste dorénavant à commenter et à expliciter ses thèses.</span></span> que j’ai pu écouter. C’est avec grand plaisir que j’ai vu Nigidius et fait la connaissance de Cratippe. Les premières salutations furent consacrées aux demandes mutuelles d’informations.</p>
+<p>Se rendant à <span class="tooltip lieu">Rome<span class="tooltiptext">Voir la carte.</span></span> après sa légation il m’avait attendu à <span class="tooltip lieu">Ephèse<span class="tooltiptext">Voir la carte.</span></span> tandis que je faisais route vers la <span class="tooltip lieu">Cilicie<span class="tooltiptext">Voir la carte.</span></span>&nbsp;; venant de <span class="tooltip lieu">Mytilène<span class="tooltiptext">Voir la carte.</span></span> <span class="tooltip perso">Cratippe<span class="tooltiptext">Cratippe de Pergame (en grec&nbsp;: <i>Κράτιππος</i>), était un philosophe péripatéticien de premier plan du 1er siècle avant J.-C. qui a enseigné à Mytilène et à Athènes. <a href="#cratippe"><span onclick="opentabs('notes')">En Savoir plus</span></a></span></span> s’y était également rendu pour me saluer et me voir&nbsp;: il est à mes yeux le chef de file incontestable de tous les <span class="tooltip idee">Péripatéticiens<span class="tooltiptext">École philosophique fondée par Aristote en -335 à Athènes. La philosophie péripatéticienne a la particularité de considérer qu'Aristote a découvert et révélé la vérité, et que le travail philosophique consiste dorénavant à commenter et à expliciter ses thèses.</span></span> que j’ai pu écouter. C’est avec grand plaisir que j’ai vu Nigidius et fait la connaissance de Cratippe. Les premières salutations furent consacrées aux demandes mutuelles d’informations.</p>
 
 
 </div>
@@ -197,15 +198,15 @@ margin-right: auto;
 <h2>Chronologie</h2>
 
 <div>
-  <button onclick="openchrono('-52')">-52</button>
-  <button onclick="openchrono('-51')">-51</button>
-  <button onclick="openchrono('-50')">-50</button>
-  <button onclick="openchrono('-49')">-49</button>
-  <button onclick="openchrono('-48')">-48</button>
-  <button onclick="openchrono('-45')">-45</button>
-  <button onclick="openchrono('-44')">-44</button>
-  <button onclick="openchrono('-43')">-43</button>
-  </div>
+ <button onclick="openchrono('-52')">-52</button>
+ <button onclick="openchrono('-51')">-51</button>
+ <button onclick="openchrono('-50')">-50</button>
+ <button onclick="openchrono('-49')">-49</button>
+ <button onclick="openchrono('-48')">-48</button>
+ <button onclick="openchrono('-45')">-45</button>
+ <button onclick="openchrono('-44')">-44</button>
+ <button onclick="openchrono('-43')">-43</button>
+ </div>
 
 <div id="-52" class="chrono">
 <h3>-52. Ephèse comme lieu de rencontre &#40;date probable du récit&#41;</h3>
@@ -243,7 +244,7 @@ margin-right: auto;
 </div>
 
 <div id="-44" class="chrono" style="display:none">
-<h3>-44. Loin de la sérénité  (date probable de l'écriture)</h3>
+<h3>-44. Loin de la sérénité (date probable de l'écriture)</h3>
 <p>Trois mois plus tard - aux Ides de Mars, le 15 mars 44 av. J.-C. - Cicéron est surpris par l'assassinat de César&nbsp;: les conjurés l'avaient laissé hors de la confidence.</p>
 <p>Cicéron envoie son fils Marcus parfaire sa formation philosophico-rhétorique à Athènes&nbsp;: il le confie à son ami Cratippe. Pour ne pas avoir à se rallier à Octave, il envisage de le rejoindre, mais y renonce&nbsp;: Octave le sollicite en effet instamment. Rentré en Italie depuis avril, le jeune homme développe son influence auprès des vétérans de César démobilisés et y parvient puisque Cicéron se rallie à lui en décembre.</p>
 <p>Il se lance dans son dernier combat politique&nbsp;: il prononce ses <em>Philippiques</em>, hostiles à Octave.</p>
@@ -259,101 +260,103 @@ margin-right: auto;
 
 <div id="carte" class="tabs" style="display:none">
 <h2>Contexte géographique</h2> 
-<center> <img src= "MapEphese.jpg" width="600"> </center> 
+<h3>Le voyage des personnages</h3>
+<center><img src="carte_annotee.png" width="600"></center>
 <h3>Ephèse</h3>
 <p>(<em>Efes</em> en grec ancien/<em>Ephesos</em> en latin)<br>
-<p>Histoire&nbsp;: Ephèse faisait partie des cités antiques les plus importantes d’Asie mineure. Elle se situait en Ionie, dans l’ouest de l’Asie mineure entre Phocée &#40;Ancienne cité grecque d’Ionie qui se situait sur la côte de la Mer Egée&#41;  et Milet (ancienne cité grecque d’Ionie et l’une des villes les plus prospères d’Asie Mineure et le berceau d’une très grande école de philosophie.
-  C’est une ville portuaire située au bord de la Mer Egée. Pline l’ancien expliquait que «&nbsp;la mer avait l'habitude de monter jusqu'au temple de Diane&nbsp;». La cité eut un fort développement grâce à sa situation géographique. 
-  Les facteurs fondamentaux qui ont contribué à rendre cette cité importante sont&nbsp;: 
-  <ul>
-    <li>Le centre spirituel (Culte de la déesse Artémis&nbsp;: L’Artémision était considéré comme l'un des plus importants sanctuaires de l’Antiquité.)</li>
-    <li>Le port (rôle clé pour le commerce, la richesse et le pouvoir)</li>
-    <li>Situation géographique stratégique sur les routes commerciales</li>
-    <li>L’art oratoire était très présent (Ephèse comportait un bon nombre de spécialistes de l’expression).</li>
-    <li>Riche histoire fondée vers 1000 avant notre ère.</li>
+<p>Histoire&nbsp;: Ephèse faisait partie des cités antiques les plus importantes d’Asie mineure. Elle se situait en Ionie, dans l’ouest de l’Asie mineure entre Phocée &#40;Ancienne cité grecque d’Ionie qui se situait sur la côte de la Mer Egée&#41; et Milet (ancienne cité grecque d’Ionie et l’une des villes les plus prospères d’Asie Mineure et le berceau d’une très grande école de philosophie.
+ C’est une ville portuaire située au bord de la Mer Egée. Pline l’ancien expliquait que «&nbsp;la mer avait l'habitude de monter jusqu'au temple de Diane&nbsp;». La cité eut un fort développement grâce à sa situation géographique. 
+ Les facteurs fondamentaux qui ont contribué à rendre cette cité importante sont&nbsp;: 
+ <ul>
+ <li>Le centre spirituel (Culte de la déesse Artémis&nbsp;: L’Artémision était considéré comme l'un des plus importants sanctuaires de l’Antiquité.)</li>
+ <li>Le port (rôle clé pour le commerce, la richesse et le pouvoir)</li>
+ <li>Situation géographique stratégique sur les routes commerciales</li>
+ <li>L’art oratoire était très présent (Ephèse comportait un bon nombre de spécialistes de l’expression).</li>
+ <li>Riche histoire fondée vers 1000 avant notre ère.</li>
 </ul>
-  <p> Elle a connu son âge d’or à la période de l’Empire romain. A cette époque, son port était considéré comme le plus grand de toutes les provinces de l’Asie mineure. Ephèse possédait un temple en hommage à l’empereur Hadrien. Sachant qu’à cette époque, les temples honorant les empereurs romains n’étaient érigés que dans les villes les plus importantes.
-  </p>
+ <p> Elle a connu son âge d’or à la période de l’Empire romain. A cette époque, son port était considéré comme le plus grand de toutes les provinces de l’Asie mineure. Ephèse possédait un temple en hommage à l’empereur Hadrien. Sachant qu’à cette époque, les temples honorant les empereurs romains n’étaient érigés que dans les villes les plus importantes.
+ </p>
+ <center> <img src= "MapEphese.jpg" width="600"> </center> 
 <h3>Rome</h3>
 <p>En dehors de la légende selon laquelle la ville de Rome est née après que Romulus ait tué son frère Rémus, tous deux élevés par une louve, une explication plus cartésienne indique que Rome est née aux environs du VIIIème siècle avant J.-C. suite au regroupement de plusieurs tribus et villages qui étaient établis sur les collines de la région. Les Etrusques ont très certainement été les premiers occupants. La monarchie s’y est ensuite installée et les souverains qui se sont succédés ont laissé leur empreinte en développant peu à peu la cité, en créant les différentes institutions administratives, religieuses et en contribuant à son extension territoriale.</p>
-<p> Au 1er siècle avant J.-C., Rome était gouvernée sous la forme d’une République, mais celle-ci commençait à être critiquée et ce de plus en plus sévèrement : les dirigeants, les personnes influentes étaient au pouvoir et les plus riches s’y maintenaient au détriment des personnes défavorisées. Cette situation a conduit à une guerre civile. S’est également déroulée la célèbre révolte des esclaves menée par Spartacus.</p>
-<p>Des massacres seront perpétrés : esclaves exterminés sur ordre de Pompée, crucifixions sur ordre de Crassus. Cicéron qui était devenu Consul en 63 avant J.-C., avait dû s’exiler en 58. A son retour, son rôle politique est moindre, la gouvernance de Rome est alors assurée par Pompée puis par César. Lors de la guerre civile, il se rallie à Pompée sans grande conviction, puis à César, et quand il doit choisir entre Octave ou Antoine, il s’oppose à Antoine ce qui lui coûte la vie en 43 avant J.-C. A partir de 27 avant J.-C. débute l’Empire romain qui s’étendra sur un vaste territoire : Maurétanie tingitane (Maroc), Mésopotamie, Egypte, Britannie (Angleterre et Pays de Galles). Rome devient l’une des plus grande entité politique qui ait existé.</p>
+<p> Au 1er siècle avant J.-C., Rome était gouvernée sous la forme d’une République, mais celle-ci commençait à être critiquée et ce de plus en plus sévèrement&nbsp;: les dirigeants, les personnes influentes étaient au pouvoir et les plus riches s’y maintenaient au détriment des personnes défavorisées. Cette situation a conduit à une guerre civile. S’est également déroulée la célèbre révolte des esclaves menée par Spartacus.</p>
+<p>Des massacres seront perpétrés&nbsp;: esclaves exterminés sur ordre de Pompée, crucifixions sur ordre de Crassus. Cicéron qui était devenu Consul en 63 avant J.-C., avait dû s’exiler en 58. A son retour, son rôle politique est moindre, la gouvernance de Rome est alors assurée par Pompée puis par César. Lors de la guerre civile, il se rallie à Pompée sans grande conviction, puis à César, et quand il doit choisir entre Octave ou Antoine, il s’oppose à Antoine ce qui lui coûte la vie en 43 avant J.-C. A partir de 27 avant J.-C. débute l’Empire romain qui s’étendra sur un vaste territoire&nbsp;: Maurétanie tingitane (Maroc), Mésopotamie, Egypte, Britannie (Angleterre et Pays de Galles). Rome devient l’une des plus grande entité politique qui ait existé.</p>
 
 <h3>Mytilène</h3>
 <p>Mytilène est dès l’antiquité, la principale cité de l’île de Lesbos. C’est la ville de naissance de Cratippe.
-D’abord dominée par les Grecs, elle a subi au fil des siècles une histoire mouvementée : invasion des Perses dont elle se libère lors des guerres médiques, révolte contre Athènes et soumission lors de la guerre du Péloponnèse et en 81 avant J.-C. invasion romaine. La ville est alors en partie détruite mais Pompée va la reconstruire et lui redonner sa liberté. La beauté de son architecture grecque est célèbre et Cicéron parle de sa beauté et de sa richesse. Pompée fait même construire à Rome un théâtre (le premier théâtre permanent) sur le modèle de celui de Mytilène. La ville continuera d’être embellie sous le règne de l’Empereur romain Trajan.</p>
-  
+D’abord dominée par les Grecs, elle a subi au fil des siècles une histoire mouvementée&nbsp;: invasion des Perses dont elle se libère lors des guerres médiques, révolte contre Athènes et soumission lors de la guerre du Péloponnèse et en 81 avant J.-C. invasion romaine. La ville est alors en partie détruite mais Pompée va la reconstruire et lui redonner sa liberté. La beauté de son architecture grecque est célèbre et Cicéron parle de sa beauté et de sa richesse. Pompée fait même construire à Rome un théâtre (le premier théâtre permanent) sur le modèle de celui de Mytilène. La ville continuera d’être embellie sous le règne de l’Empereur romain Trajan.</p>
+
 <h3>Cilicie</h3>
 <p>La Cilicie est un vaste territoire qui comprend, outre la Cilicie proprement dite, l’île de Chypre, la Lycaonie, l’Isaurie, la Pisidie, la Pamphylie, ainsi que les trois diocèses phrygiens de Laodicée, d’Apamée et de Synnade. Ce territoire comportait de vastes plaines riches et fertiles, entourées de montagnes très boisées. Sa situation stratégique en avait fait un lieu de passage très prisé pour se rendre en Syrie et en Orient. Du fait de sa position géographique, la Cilicie a fait l’objet de nombreuses convoitises et donc de conquêtes durant des siècles (Hittites, Perses, Grecs). En 67 avant J.-C., le pays est conquis par le Consul romain Pompée et devient une province romaine. La province de Cilicie regroupe désormais plusieurs districts situés sur la côte sud de l’Asie Mineure dont une partie appartenait à des pirates de Méditerranée vaincus par les Romains lors de leurs conquêtes en Méditerranée et en Orient.</p>
 </div>
 
 
 <div id="notes" class="tabs" style="display:none">
-  <h2>Notes</h2>
-  <h3 id="academiques">Les Académiques</h3>
-  <p> C’est seulement ainsi qu’apparait Platon, l’auteur du texte qui aurait pu constituer le sujet de la conversation à venir. Citation en creux donc, par cette œuvre que Cicéron a déjà composée, dans laquelle il nous transmet ce qu'il sait de la Nouvelle Académie – à savoir l’enseignement des disciples de Platon, dans la richesse et les divergences de ses exégèses. Platon y était présenté comme le philosophe de la recherche. De même, Cicéron l’oppose ici aux dogmatiques, les <em>physici</em>, ceux qui ont une conception d'un monde organiquement cohérent, donc régi par la Providence. Notons que le fait de parler de l'Académie en début de préambule pourrait témoigner de son état particulièrement peu développé, encore en construction puisque la méthode cicéronienne la plus fréquente consiste au contraire à prendre comme point de départ la doxographie dans son immense variété – il montre une culture philosophique marquée par une curiosité sans entraves doctrinaires - pour aboutir à l'Académie, l’auteur préférant construire sa réflexion morale sur le constat du dissensus, et ne retrouver Platon qu’in fine.</p>
-  <h3 id="methode">La méthode de Carnéade</h3>
-  <p>En -155, Carnéade se rendit à Rome, défendre Athènes qui avait été condamnée à une lourde amende pour avoir saccagé Oropos, une ville portuaire de l’Attique située à la frontière de la Béotie. Il présenta deux argumentaires complètement contradictoires sur ce point de justice qui, par leur efficacité rhétorique, semèrent le doute chez les juges – sa <i> disputatio in utramque partem</i> exonéra en effet Athènes de son amende.</br>
+ <h2>Notes</h2>
+ <h3 id="academiques">Les Académiques</h3>
+ <p> C’est seulement ainsi qu’apparait Platon, l’auteur du texte qui aurait pu constituer le sujet de la conversation à venir. Citation en creux donc, par cette œuvre que Cicéron a déjà composée, dans laquelle il nous transmet ce qu'il sait de la Nouvelle Académie – à savoir l’enseignement des disciples de Platon, dans la richesse et les divergences de ses exégèses. Platon y était présenté comme le philosophe de la recherche. De même, Cicéron l’oppose ici aux dogmatiques, les <em>physici</em>, ceux qui ont une conception d'un monde organiquement cohérent, donc régi par la Providence. Notons que le fait de parler de l'Académie en début de préambule pourrait témoigner de son état particulièrement peu développé, encore en construction puisque la méthode cicéronienne la plus fréquente consiste au contraire à prendre comme point de départ la doxographie dans son immense variété – il montre une culture philosophique marquée par une curiosité sans entraves doctrinaires - pour aboutir à l'Académie, l’auteur préférant construire sa réflexion morale sur le constat du dissensus, et ne retrouver Platon qu’in fine.</p>
+ <h3 id="methode">La méthode de Carnéade</h3>
+ <p>En -155, Carnéade se rendit à Rome, défendre Athènes qui avait été condamnée à une lourde amende pour avoir saccagé Oropos, une ville portuaire de l’Attique située à la frontière de la Béotie. Il présenta deux argumentaires complètement contradictoires sur ce point de justice qui, par leur efficacité rhétorique, semèrent le doute chez les juges – sa <i> disputatio in utramque partem</i> exonéra en effet Athènes de son amende.</p>
 <ul>
-<li>Que comprendre par la <strong> méthode de Carnéade </strong>, dont se revendique Cicéron ? </li>
-<p>L’efficacité de sa stratégie ne doit pas être jugée pernicieuse. Rien de dangereux, au contraire, à s’habituer à ce mouvement de pensée antilogique. Cette pratique ne semble pas une simple <i> disputatio </i> de sophiste pour laquelle toutes les opinions seraient équivalentes – dans quel cas la logique primerait l’éthique, ce qui empêcherait toute règle de conduite satisfaisante. Au contraire :  en mettant à jour en quoi la raison peut souvent être antinomique, cette méthode vise à combattre tout dogmatisme s’appliquant à la totalité des phénomènes sensibles (la <i>phusis</i>). Son but est bien d’aider le citoyen dans sa règle de conduite. C'est parce qu’il aura pris conscience d’être dans un monde d’incertitudes, où l’accès à la vérité ne lui est pas accessible par la raison pure, qu'il devra se contenter du vraisemblable, quitte à accorder une valeur pratique à la croyance, à la parole mythique. </li>
-</ul></p>
+<li>Que comprendre par la <strong> méthode de Carnéade </strong>, dont se revendique Cicéron ?<br>
+L’efficacité de sa stratégie ne doit pas être jugée pernicieuse. Rien de dangereux, au contraire, à s’habituer à ce mouvement de pensée antilogique. Cette pratique ne semble pas une simple <i> disputatio </i> de sophiste pour laquelle toutes les opinions seraient équivalentes – dans quel cas la logique primerait l’éthique, ce qui empêcherait toute règle de conduite satisfaisante. Au contraire&nbsp;: en mettant à jour en quoi la raison peut souvent être antinomique, cette méthode vise à combattre tout dogmatisme s’appliquant à la totalité des phénomènes sensibles (la <i>phusis</i>). Son but est bien d’aider le citoyen dans sa règle de conduite. C'est parce qu’il aura pris conscience d’être dans un monde d’incertitudes, où l’accès à la vérité ne lui est pas accessible par la raison pure, qu'il devra se contenter du vraisemblable, quitte à accorder une valeur pratique à la croyance, à la parole mythique. </li>
+</ul>
 
-  <h2>Personnages historiques et mythologiques</h2>
-  <h3 id="carneade">Carnéade</h3>
-  <p>Né vers 218 av. JC à Cyrène (située à proximité immédiate de la moderne Shahhat de Libye) vieille colonie grecque qui fut la patrie de nombreux penseurs et mathématiciens, ce philosophe s'installa à Athènes où il étudia la dialectique avec le Stoïcien Diogène de Babylone et lut avec un intérêt tout particulier les écrits de Chrysippe. On lui prête d’ailleurs le mot : « Si Chrysippe n'avait pas existé, je ne serais rien. ». Il devint ensuite scholarque de l'Académie (la Troisième), et se consacra à la philosophie. C'est par son enseignement, non par ses écrits - nous n'en avons aucun - qu'il est connu. La postérité - dont Cicéron dans <i>De republica</i>, a surtout retenu de la vie de ce philosophe un événement&nbsp;: la fameuse ambassade de -155, il exemplifie sa méthode.</br>
-    <ul>
+ <h2>Personnages historiques et mythologiques</h2>
+ <h3 id="carneade">Carnéade</h3>
+ <p>Né vers 218 av. JC à Cyrène (située à proximité immédiate de la moderne Shahhat de Libye) vieille colonie grecque qui fut la patrie de nombreux penseurs et mathématiciens, ce philosophe s'installa à Athènes où il étudia la dialectique avec le Stoïcien Diogène de Babylone et lut avec un intérêt tout particulier les écrits de Chrysippe. On lui prête d’ailleurs le mot&nbsp;: «&nbsp;Si Chrysippe n'avait pas existé, je ne serais rien.&nbsp;». Il devint ensuite scholarque de l'Académie (la Troisième), et se consacra à la philosophie. C'est par son enseignement, non par ses écrits - nous n'en avons aucun - qu'il est connu. La postérité - dont Cicéron dans <i>De republica</i>, a surtout retenu de la vie de ce philosophe un événement&nbsp;: la fameuse ambassade de -155, il exemplifie sa méthode.</br>
+ <ul>
 <li>C'est une <em>figure déterminante </em> pour Cicéron, qui le cite très souvent dans les <i> Académiques </i>.</li>
 </ul></p>
-  <h3 id="ciceron">Cicéron</h3>
-  <p>Cicéron est né en 106 avant notre ère et a été assassiné en 43 avant notre ère.. Il était un homme d'État romain, un avocat, un philosophe, un rhéteur et un écrivain latin. Il est surtout connu pour ses œuvres. </p>
-   <h3 id="cratippe">Cratippe</h3>
-    <p>Né à Pergame (vers – 100 av. JC), il a été disciple à Athènes de l'académicien Aristos d'Ascalon, frère et successeur d'Antiochos d'Ascalon, puis est passé sous obédience péripaticienne. Il a vécu longtemps à Mytilène (sur l’île grecque de Lesbos)&nbsp;: en -48, il reçut la visite de Pompée, en fuite depuis la défaite subie à Pharsale, et lui appliqua l’art de la «&nbsp;consolation&nbsp;». La même année, M. Claudius Marcellus, consul et ami de Pompée, vint le visiter&nbsp;; il devint son disciple. Vers -46, Cratippe se rendit à Ephèse pour rencontrer Cicéron (et à l’occasion Nigidius) comme nous l’apprend ici Cicéron. Il retournera ensuite à Athènes vers -46&nbsp;: ville où il aura parmi ses disciples Horace en -45 et Marcus, le fils de Cicéron, en -44. Pour Cratippe, dont l’œuvre porte sur la Divination et l'Interprétation des Songes, Cicéron éprouvait une véritable amitié et une telle admiration qu’il obtiendra pour lui le droit de cité&nbsp;: il demandera d’ailleurs à l'Aréopage – conseil de sages d’Athènes réputé pour sa compétence, son intégrité et sa sagesse - un décret priant Cratippe «&nbsp;de demeurer à Athènes et de s'y entretenir avec les jeunes gens pour réhausser le prestige de la ville&nbsp;»..</br>
-    <ul>
-    <li>A l’époque où s’inscrit le dialogue sur le <i>Timée</i> on sait que Cicéron était à Ephèse au mois de juillet de -51, Cratippe est présenté comme un protagoniste à part entière dans ce projet de discussion, alors qu’il n’est historiquement qu’un étranger grec&nbsp;: il semble peu plausible que Cratippe puisse se voir confier le rôle de traduire un texte grec en latin.C'est fictivment que Cicéron l’inscrit en tant que nouveau citoyen, reconnaissant pleinement la valeur de sa pensée qu’il ne soumet pas à l’autorité du pouvoir – il écrira voir en lui le «&nbsp;premier philosophe de ce siècle&nbsp;» (<em>princeps huius aetatis philosophorum</em> &#40; Cic., De off. I, 2.&#41;</li>
-    <li> La présence d'un philosophe grec dans un dialogue cicéronien est de toute façon unique : il doit-être interrogé : Cratippe, l'aristotélicien, en tant que futur interlocuteur dans le dialogue à venir, ne davait-il pas sa présence pour fournir un contrepoids légitime à Nigidius, lui-même proclamé par Cicéron comme chef d'un mouvement philosophique ?</li>
-    </ul>
+ <h3 id="ciceron">Cicéron</h3>
+ <p>Cicéron est né en 106 avant notre ère et a été assassiné en 43 avant notre ère. Il était un homme d'État romain, un avocat, un philosophe, un rhéteur et un écrivain latin. Il est surtout connu pour ses œuvres. <a href="#-52"><span onclick="opentabs('chrono')">Voir la chronologie</span></a></p>
+ <h3 id="cratippe">Cratippe</h3>
+ <p>Né à Pergame (vers – 100 av. JC), il a été disciple à Athènes de l'académicien Aristos d'Ascalon, frère et successeur d'Antiochos d'Ascalon, puis est passé sous obédience péripaticienne. Il a vécu longtemps à Mytilène (sur l’île grecque de Lesbos)&nbsp;: en -48, il reçut la visite de Pompée, en fuite depuis la défaite subie à Pharsale, et lui appliqua l’art de la «&nbsp;consolation&nbsp;». La même année, M. Claudius Marcellus, consul et ami de Pompée, vint le visiter&nbsp;; il devint son disciple. Vers -46, Cratippe se rendit à Ephèse pour rencontrer Cicéron (et à l’occasion Nigidius) comme nous l’apprend ici Cicéron. Il retournera ensuite à Athènes vers -46&nbsp;: ville où il aura parmi ses disciples Horace en -45 et Marcus, le fils de Cicéron, en -44. Pour Cratippe, dont l’œuvre porte sur la Divination et l'Interprétation des Songes, Cicéron éprouvait une véritable amitié et une telle admiration qu’il obtiendra pour lui le droit de cité&nbsp;: il demandera d’ailleurs à l'Aréopage – conseil de sages d’Athènes réputé pour sa compétence, son intégrité et sa sagesse - un décret priant Cratippe «&nbsp;de demeurer à Athènes et de s'y entretenir avec les jeunes gens pour réhausser le prestige de la ville&nbsp;»..</br>
+ <ul>
+ <li>A l’époque où s’inscrit le dialogue sur le <i>Timée</i> on sait que Cicéron était à Ephèse au mois de juillet de -51, Cratippe est présenté comme un protagoniste à part entière dans ce projet de discussion, alors qu’il n’est historiquement qu’un étranger grec&nbsp;: il semble peu plausible que Cratippe puisse se voir confier le rôle de traduire un texte grec en latin.C'est fictivment que Cicéron l’inscrit en tant que nouveau citoyen, reconnaissant pleinement la valeur de sa pensée qu’il ne soumet pas à l’autorité du pouvoir – il écrira voir en lui le «&nbsp;premier philosophe de ce siècle&nbsp;» (<em>princeps huius aetatis philosophorum</em> &#40; Cic., De off. I, 2.&#41;</li>
+ <li> La présence d'un philosophe grec dans un dialogue cicéronien est de toute façon unique&nbsp;: il doit-être interrogé&nbsp;: Cratippe, l'aristotélicien, en tant que futur interlocuteur dans le dialogue à venir, ne davait-il pas sa présence pour fournir un contrepoids légitime à Nigidius, lui-même proclamé par Cicéron comme chef d'un mouvement philosophique ?</li>
+ </ul>
  
-    <h3 id="nigidius">Nigidius Figulus, Publius</h3>
-    <p>Né en Étrurie en -98, il a peut-être été disciple dans sa jeunesse, de Varron, son aîné de 18 ans. Il finit ses études en Grèce, après quoi il se fait disciple du fameux philosophe stoïcien Posidonius , à Rhodes, en -78. Vers -70, il a sans doute fondé un Ordre pythagoricien à Rome. Suétone nous raconte qu’en -63, lors de la conjuration de Catilina, Nigidius aurait prédit que ce serait Octave, et non Catilina, le futur César. C’est cette même année, que se noua son amitié avec Cicéron à qui il apporta son soutien dans la lutte contre Catilina. Son cursus honorum est classique&nbsp;: questeur, sénateur, tribun de la plèbe (en -60), puis préteur – magistrat chargé de rendre la justice - en -58. Pendant la guerre civile, il est favorable à Pompée. Il fut donc banni par César (en -46), qui l’envoie en Asie en tant que légat, en -52&nbsp;: le texte précise que c’est à la fin de sa légation que Nigidius, sur le chemin de Rome, rencontra Cicéron à Ephèse, au moment où ce dernier attendait la visite de Cratippe. Mais, en -44, date probable du commencement d’écriture de ce texte, le savant philosophe était mort en exil depuis un an, à l’âge de 53 ans. Il est considéré à Rome, à l’égal de Varron, le grand encyclopédiste de la génération précédente. Il fonda un néopythagorisme, en latin, vers -60, comme le fera Eudore d'Alexandrie, vers -40, cette fois en grec, à Alexandrie. Malgré ou en raison de leur divergence philosophique, Nigidius et Cicéron étaient amis, y compris sur la scène politique.</br>
+ <h3 id="nigidius">Nigidius Figulus, Publius</h3>
+ <p>Né en Étrurie en -98, il a peut-être été disciple dans sa jeunesse, de Varron, son aîné de 18 ans. Il finit ses études en Grèce, après quoi il se fait disciple du fameux philosophe stoïcien Posidonius , à Rhodes, en -78. Vers -70, il a sans doute fondé un Ordre pythagoricien à Rome. Suétone nous raconte qu’en -63, lors de la conjuration de Catilina, Nigidius aurait prédit que ce serait Octave, et non Catilina, le futur César. C’est cette même année, que se noua son amitié avec Cicéron à qui il apporta son soutien dans la lutte contre Catilina. Son cursus honorum est classique&nbsp;: questeur, sénateur, tribun de la plèbe (en -60), puis préteur – magistrat chargé de rendre la justice - en -58. Pendant la guerre civile, il est favorable à Pompée. Il fut donc banni par César (en -46), qui l’envoie en Asie en tant que légat, en -52&nbsp;: le texte précise que c’est à la fin de sa légation que Nigidius, sur le chemin de Rome, rencontra Cicéron à Ephèse, au moment où ce dernier attendait la visite de Cratippe. Mais, en -44, date probable du commencement d’écriture de ce texte, le savant philosophe était mort en exil depuis un an, à l’âge de 53 ans. Il est considéré à Rome, à l’égal de Varron, le grand encyclopédiste de la génération précédente. Il fonda un néopythagorisme, en latin, vers -60, comme le fera Eudore d'Alexandrie, vers -40, cette fois en grec, à Alexandrie. Malgré ou en raison de leur divergence philosophique, Nigidius et Cicéron étaient amis, y compris sur la scène politique.</br>
 <ul>
-<li> Le lecteur de ce dialogue ne pourrait-il pas voir dans la convocation de cette figure dès les premières lignes, un hommage à celui qui était présenté comme &laquo; de tous les hommes le plus savant, le plus probe, jadis très influent &raquo; ? Son pythagoricisme devait être mis en valeur dans une traduction du <i>Timée</i>.</li>
+<li> Le lecteur de ce dialogue ne pourrait-il pas voir dans la convocation de cette figure dès les premières lignes, un hommage à celui qui était présenté comme &laquo;&nbsp;de tous les hommes le plus savant, le plus probe, jadis très influent&nbsp;&raquo; ? Son pythagoricisme devait être mis en valeur dans une traduction du <i>Timée</i>.</li>
 </ul>
 </p>
-  </div>
+ </div>
 
-  <div id="biblio" class="tabs" style="display:none">
-    <h2>Sources</h2>
-<ul>
+ <div id="biblio" class="tabs" style="display:none">
+ <h2>Sources</h2>
+ <ul>
 
-<li><div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">
-  <div class="csl-entry"><span style="font-variant:small-caps;">Plato</span>, Albert <span style="font-variant:small-caps;">Rivaud</span> et <span style="font-variant:small-caps;">Plato</span>, <i>Timée. Critias</i>, 8. tirage, Paris, Belles Lettres, coll. «&nbsp;Oeuvres complètes / Platon&nbsp;», T. 10, 2011.</div>
-  <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=urn%3Aisbn%3A978-2-251-00228-6&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Tim%C3%A9e.%20Critias&amp;rft.place=Paris&amp;rft.publisher=Belles%20Lettres&amp;rft.edition=8.%20tirage&amp;rft.series=Oeuvres%20compl%C3%A8tes%20%2F%20Platon&amp;rft.aulast=Plato&amp;rft.au=Plato&amp;rft.au=Albert%20Rivaud&amp;rft.au=Plato&amp;rft.date=2011&amp;rft.tpages=274&amp;rft.isbn=978-2-251-00228-6&amp;rft.language=grc%20fre"></span>
-</div></li>
-<li><div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">
-  <div class="csl-entry"><span style="font-variant:small-caps;">Lévy</span> Carlos, <i>Cicero Academicus: Recherches sur les Académiques et sur la philosophie cicéronienne</i> Rome, Ecole Française de Rome, 2017.</div>
-  <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=urn%3Aisbn%3A978-2-7283-1264-1&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Cicero%20Academicus%3A%20Recherches%20sur%20les%20Acad%C3%A9miques%20et%20sur%20la%20philosophie%20cic%C3%A9ronienne&amp;rft.place=Rome&amp;rft.publisher=Ecole%20Fran%C3%A7aise%20de%20Rome&amp;rft.edition=%24%20%7Bnumber%7Dnd%20%C3%A9dition&amp;rft.aufirst=Carlos&amp;rft.aulast=L%C3%A9vy&amp;rft.au=Carlos%20L%C3%A9vy&amp;rft.date=2017&amp;rft.tpages=697&amp;rft.isbn=978-2-7283-1264-1&amp;rft.language=Fran%C3%A7ais"></span>
-</div></li>
- <li>
-  <div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">
-  <div class="csl-entry"><span style="font-variant:small-caps;">ERIAC</span>, «&nbsp;EGesta — Éditions Génétiques NumériqueS des Textes Antiques&nbsp;», 21 septembre 2021 (en ligne&nbsp;: <a href="http://eriac.univ-rouen.fr/egesta/">http://eriac.univ-rouen.fr/egesta/</a>&nbsp;; consulté le 11 décembre 2021).</div>
-  <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=eGesta%20%E2%80%94%20%C3%89ditions%20G%C3%A9n%C3%A9tiques%20Num%C3%A9riqueS%20des%20Textes%20Antiques&amp;rft.identifier=http%3A%2F%2Feriac.univ-rouen.fr%2Fegesta%2F&amp;rft.aulast=ERIAC&amp;rft.au=ERIAC&amp;rft.date=2021-09-21&amp;rft.language=fr-FR"></span>
-</div></li>
-<li>
-<div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">  
-<div class="csl-entry"><span style="font-variant:small-caps;">Kirbihler François,</span> <i> « Des Grecs et des Italiens à Éphèse : les mutations d’une capitale de province (70 av. J.-C.-73 apr. J.-C.) » </i>, Pallas [En ligne], 96 | 2014, mis en ligne le 01 octobre 2014.</div>
-</div></li>
- 
-<li>
-<div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">  
-<div class="csl-entry"><span style="font-variant:small-caps;">Engels David,</span> <i> «Cicéron comme proconsul en Cilicie et la guerre contre les Parthes » </i>, Revue belge de Philologie et d'Histoire, 86-1 pp. 23-45, Année 2008. </div>
-</div></li>
-<li><div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">  
-<div class="csl-entry"><span style="font-variant:small-caps;">Image Ephèse,</span> <i> Carte de la région d'Ephèse dans l'Antiquité, réalisée en 2008 à partir de la carte de la région égéenne d'Eric Gaba.</div>
-</div></li>
-</ul>
+    <li><div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">
+      <div class="csl-entry"><span style="font-variant:small-caps;">Plato</span>, Albert <span style="font-variant:small-caps;">Rivaud</span> et <span style="font-variant:small-caps;">Plato</span>, <i>Timée. Critias</i>, 8. tirage, Paris, Belles Lettres, coll. «&nbsp;Oeuvres complètes / Platon&nbsp;», T. 10, 2011.</div>
+      <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=urn%3Aisbn%3A978-2-251-00228-6&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Tim%C3%A9e.%20Critias&amp;rft.place=Paris&amp;rft.publisher=Belles%20Lettres&amp;rft.edition=8.%20tirage&amp;rft.series=Oeuvres%20compl%C3%A8tes%20%2F%20Platon&amp;rft.aulast=Plato&amp;rft.au=Plato&amp;rft.au=Albert%20Rivaud&amp;rft.au=Plato&amp;rft.date=2011&amp;rft.tpages=274&amp;rft.isbn=978-2-251-00228-6&amp;rft.language=grc%20fre"></span>
+    </div></li>
+    <li><div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">
+      <div class="csl-entry"><span style="font-variant:small-caps;">Lévy</span> Carlos, <i>Cicero Academicus: Recherches sur les Académiques et sur la philosophie cicéronienne</i> Rome, Ecole Française de Rome, 2017.</div>
+      <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=urn%3Aisbn%3A978-2-7283-1264-1&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Cicero%20Academicus%3A%20Recherches%20sur%20les%20Acad%C3%A9miques%20et%20sur%20la%20philosophie%20cic%C3%A9ronienne&amp;rft.place=Rome&amp;rft.publisher=Ecole%20Fran%C3%A7aise%20de%20Rome&amp;rft.edition=%24%20%7Bnumber%7Dnd%20%C3%A9dition&amp;rft.aufirst=Carlos&amp;rft.aulast=L%C3%A9vy&amp;rft.au=Carlos%20L%C3%A9vy&amp;rft.date=2017&amp;rft.tpages=697&amp;rft.isbn=978-2-7283-1264-1&amp;rft.language=Fran%C3%A7ais"></span>
+    </div></li>
+     <li>
+      <div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">
+      <div class="csl-entry"><span style="font-variant:small-caps;">ERIAC</span>, «&nbsp;EGesta — Éditions Génétiques NumériqueS des Textes Antiques&nbsp;», 21 septembre 2021 (en ligne&nbsp;: <a href="http://eriac.univ-rouen.fr/egesta/">http://eriac.univ-rouen.fr/egesta/</a>&nbsp;; consulté le 11 décembre 2021).</div>
+      <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=eGesta%20%E2%80%94%20%C3%89ditions%20G%C3%A9n%C3%A9tiques%20Num%C3%A9riqueS%20des%20Textes%20Antiques&amp;rft.identifier=http%3A%2F%2Feriac.univ-rouen.fr%2Fegesta%2F&amp;rft.aulast=ERIAC&amp;rft.au=ERIAC&amp;rft.date=2021-09-21&amp;rft.language=fr-FR"></span>
+    </div></li>
+    <li>
+    <div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">  
+    <div class="csl-entry"><span style="font-variant:small-caps;">Kirbihler François,</span> <i> «&nbsp;Des Grecs et des Italiens à Éphèse : les mutations d’une capitale de province (70 av. J.-C.-73 apr. J.-C.)&nbsp;» </i>, Pallas [En ligne], 96 | 2014, mis en ligne le 01 octobre 2014.</div>
+    </div></li>
+    
+    <li>
+    <div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">  
+    <div class="csl-entry"><span style="font-variant:small-caps;">Engels David,</span> <i> «&nbsp;Cicéron comme proconsul en Cilicie et la guerre contre les Parthes&nbsp;» </i>, Revue belge de Philologie et d'Histoire, 86-1 pp. 23-45, Année 2008. </div>
+    </div></li>
+    <li><div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">  
+    <div class="csl-entry"><span style="font-variant:small-caps;">Image Ephèse,</span> <i> Carte de la région d'Ephèse dans l'Antiquité, réalisée en 2008 à partir de la carte de la région égéenne d'Eric Gaba.</div>
+    </div></li>
+    </ul>
 
-  </div>
+ </div>
 </div>
 <footer><p>M1 Humanités numériques 2021-2022</p></footer>
 
